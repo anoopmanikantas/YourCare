@@ -1,10 +1,10 @@
 # Run this first
 
-`cat requirements.txt | xargs npm install -g`
+## `cat requirements.txt | xargs npm install -g`
 
 # Must Run Before Commit
 
-`git LFS install`
+## `git LFS install`
 
 # Getting Started with Create React App
 
