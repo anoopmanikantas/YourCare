@@ -1,3 +1,11 @@
+# Run this first
+
+`cat requirements.txt | xargs npm install -g`
+
+# Must Run Before Commit
+
+`git LFS install`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
