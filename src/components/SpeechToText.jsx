@@ -29,11 +29,11 @@ const SpeechToText = () => {
   };
  
   useEffect(() => {
-    if (transcript.toString()) {
+    if (transcript.toString() && listening) {
       setSpeech(oldText + transcript.toString());
       console.log('new text', oldText + transcript.toString());
     }
-  }, [transcript.toString()]);
+  }, [transcript.toString(), listening]);
  
   useEffect(() => {
     if (listening && !oldText) {
@@ -42,7 +42,7 @@ const SpeechToText = () => {
     }
     if (!listening) {
       console.log('reset old text');
-      setOldText(speech);
+      setOldText('');
     }
   }, [listening]);
     
