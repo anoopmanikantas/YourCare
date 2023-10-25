@@ -9,6 +9,7 @@ class Strings {
     static stopListeningString = "Stop Listening";
     static patientNameString = "Patient Name";
     static patientIdString = "Patient ID";
+    static patientSymptomsString="Patient Symptoms"
     static pastHistoryString = "Past History";
     static diagnosisString = "Diagnosis";
     static writeString = "Write";
@@ -18,5 +19,5 @@ class Strings {
     static submitString = "Submit";
     static emptyString = "";
 }
-
+ 
 export default Strings;
